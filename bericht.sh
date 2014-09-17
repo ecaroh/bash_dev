@@ -8,7 +8,7 @@
 #
 
 file_name="bericht.md"
-file_path="."
+file_path="~"
 
 task_date=$(date +"%Y-%m-%d-%H-%M")
 

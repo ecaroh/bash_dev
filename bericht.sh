@@ -8,7 +8,7 @@
 #
 
 file_name="bericht.md"
-file_path="~"
+file_path="/home/lkrieg"
 
 task_date=$(date +"%Y-%m-%d-%H-%M")
 
@@ -16,7 +16,7 @@ file_template () {
 
 # Layout kann hier angepasst werden.
 #=============================================================
-cat << END > $file_name
+cat << END > $file_path"/"$file_name
 # Praktikumsbericht
 ## von $username
 
